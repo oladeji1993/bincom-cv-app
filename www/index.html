@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="css/app.min.css">
+    <link rel="stylesheet" type="text/css" href="../font/all.min.css">
+    <link rel="stylesheet" type="text/css" href="../font/fontawesome.min.css">
+    
+  </head>
+
+  <body>
+    <div class="app-page" data-page="home">
+      <div class="app-topbar">
+        <div class="app-title"><marquee direction="right">Welcome to my Multiple page Cv app</marquee></div>
+      </div>
+
+      <!-- HOME PAGE -->
+      <div class="app-content">
+        <div class="links">
+          <h2><span>HELLO I'M </span><br>OLANIPEKUN OLADEJI</h2>
+          <p>Find below links to different pages of my cv:</p>
+        </div>
+        <div class="app-section">
+          <div class="app-button" data-target="about">About Me</div>
+        </div>
+        <div class="app-section">
+          <div class="app-button" data-target="skills">Skills</div>
+        </div>
+        <div class="app-section">
+          <div class="app-button" data-target="Education">Education</div>
+        </div>
+        <div class="app-section">
+          <div class="app-button" data-target="Contact">Contact</div> 
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT ME SESSION -->
+    <div class="app-page" data-page="about">
+      <div class="app-topbar">
+        <div class="app-button left" data-back data-autotitle></div>
+        <div class="app-title">About</div>
+      </div>
+      <div class="app-content">
+        <div class="img">
+          <img src="img/me.jpg">
+          <p> 
+            A detail – oriented individual seeking a challenging yet rewarding entry level job position in a progressive
+            organization that will provide an opportunity to utilize my skills, experiences and ability in professional
+            capacity. and I would consider myself highly motivated, responsible, value-oriented, optimistic, and a fast learner, possessing excellent
+            client-facing Skills, natural problem solving and analytical skills. I’m a Front end developer who conceptualizes original ideas to bring
+            simplicity and user-friendliness to complex UI designs. Solving business problems by transforming UI designs and ideas to well
+            arrange and neat codes that meets client’s needs as prescribed by the company policy/decision.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- MY SKILLS SESSION -->
+    <div class="app-page" data-page="skills">
+      <div class="app-topbar">
+        <div class="app-button left" data-back data-autotitle></div>
+        <div class="app-title">My skills</div>
+      </div>
+      <div class="app-content">
+        <div class="app-section">
+          <div class="skills-housing">
+            <div class="top">
+                <h2>LANGUAGES</h2>
+            </div>   
+            <ul>
+                <span1>
+                    <li><i class="fab fa-html5"></i>  HTML5</li>
+                    <li><i class="fab fa-css3"></i>  CSS3</li>
+                    <li><i class="fab fa-js"></i>  JAVASCRIPT</li>
+                    <li>TYPESCRIPT</li>
+                </span1>
+            </ul>
+          </div>
+        </div>
+
+        <div class="app-section">
+          <div class="skills-housing space">
+            <div class="top">
+                <h2>FRAMEWORKS</h2>
+            </div>   
+            <ul>
+                <span1 class="padding">
+                    <li><i class="fab fa-angular"></i> ANGULAR</li>
+                    <li><i class="fab fa-bootstrap"> </i>BOOSTRAP</li>
+                    <li>IONIC</li>
+                </span1>
+            </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- EDUCATION SESSION -->
+    <div class="app-page" data-page="Education">
+      <div class="app-topbar">
+        <div class="app-button left" data-back data-autotitle></div>
+        <div class="app-title">Education</div>
+      </div>
+      <div class="app-content">
+        <div class="background">
+          <div class="Edu" id="education">
+            <div class="Education-container">
+              <div class="school-1">
+                  <div class="header">FEDERAL UNIVERSITY OF AGRICULTURE</div>
+                  <div>BANKING AND FINANCE</div>
+                  <div>2015 – 2019</div>
+              </div>
+              <div class="school-2">
+                  <div class="header">FEDERAL POLYTECHNIC EDE</div>
+                  <div>BANKING AND FINANCE</div>
+                  <div>2011 – 2014</div>
+              </div>
+  
+              <div class="sec-sch">
+                  <div class=" header">EMMANUEL COLLEGE</div>
+                  <div>SSCE</div>
+                  <div>2003 – 2009</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- CONTACT ME SESSION -->
+    <div class="app-page" data-page="Contact">
+      <div class="app-topbar">
+        <div class="app-button left" data-back data-autotitle></div>
+        <div class="app-title center">Contact</div>
+      </div>
+      <div class="app-content">
+        <div class="app-section">
+          <div class="contact-me-2">
+            <div class="skills-housing">
+              <div class="top">
+                  <h2>Contact</h2>
+              </div>   
+              <ul>
+                  <span1>
+                      <li><i class="fas fa-envelope-square"></i> Olanipekunoladeji93@gmail.com</li>
+                      <li><i class="fas fa-phone"></i> +2348165573487</li>
+                      <li><i class="fab fa-twitter"></i> oladeji93@twitter.com</li>
+                      <li><i class="fab fa-linkedin"></i> https://linkedin.com/in/oladeji-michael-675542109</li>
+                  </span1>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="app-section">
+          <div class="app-button" onclick="loadDialogue()">Click to Contact Me</div> 
+        </div>
+      </div>
+    </div>
+
+      <!-- GALLARY SESSION
+      <div class="app-page dark-page" data-page="viewer">
+        <div class="app-topbar">
+          <div class="left app-button" data-back data-autotitle></div>
+          <div class="app-title">Viewer</div>
+        </div>
+        <div class="app-content"></div>
+      </div> -->
+
+
+    <script src="js/zepto.js"></script>
+    <script src="js/app.min.js"></script>
+    
+    <script>
+      App.controller('viewer', function (page) {
+        // put stuff here
+      });
+
+      App.controller('page2', function (page) {
+        // put stuff here
+      });
+
+      try {
+        App.restore();
+      } catch (err) {
+        App.load('home');
+      }
+    </script>
+  </body>
+</html>
